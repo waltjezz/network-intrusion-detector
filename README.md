@@ -68,6 +68,4 @@ Random splits can leave related sessions in both train and test; exact deduplica
 
 Gaussian noise can produce physically impossible network feature combinations and is only a numerical sensitivity test. It is not an adversarial attack, realistic distribution shift, or proof of robustness. Future experiments should constrain perturbations to valid flow features, evaluate unseen attack families, repeat splits with several seeds and confidence intervals, and compare performance at matching false-positive operating points.
 
-For a PhD application, describe work you have run and understood. Keep synthetic and benchmark outcomes separate; do not use demo scores as network results. A defensible initial description after running the demo is: "Implemented a reproducible intrusion-detection experiment framework with validation-based threshold selection and feature-noise sensitivity analysis; benchmark evaluation in progress."
-
 Dataset citation: Iman Sharafaldin, Arash Habibi Lashkari, and Ali A. Ghorbani, "Toward Generating a New Intrusion Detection Dataset and Intrusion Traffic Characterization," ICISSP 2018. Consult the official dataset page for citation and usage details.
