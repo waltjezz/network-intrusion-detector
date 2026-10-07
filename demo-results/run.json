@@ -1,0 +1,42 @@
+{
+  "data_type": "SYNTHETIC DEMO",
+  "seed": 42,
+  "sources": [
+    "synthetic sklearn.make_classification"
+  ],
+  "dropped_columns": [],
+  "features": [
+    "synthetic_feature_0",
+    "synthetic_feature_1",
+    "synthetic_feature_2",
+    "synthetic_feature_3",
+    "synthetic_feature_4",
+    "synthetic_feature_5",
+    "synthetic_feature_6",
+    "synthetic_feature_7",
+    "synthetic_feature_8",
+    "synthetic_feature_9",
+    "synthetic_feature_10",
+    "synthetic_feature_11",
+    "synthetic_feature_12",
+    "synthetic_feature_13",
+    "synthetic_feature_14"
+  ],
+  "split": "stratified random 60/20/20; not time-separated",
+  "rows": 5000,
+  "split_rows": {
+    "train": 3000,
+    "validation": 1000,
+    "test": 1000
+  },
+  "attack_prevalence": 0.1534,
+  "target_validation_fpr": 0.01,
+  "python": "3.12.14",
+  "sklearn": "1.8.0",
+  "limitations": [
+    "Random splits may share correlated sessions across partitions.",
+    "Noise stress test is not a realistic adversarial attack or proof of robustness.",
+    "Validation FPR target is not guaranteed on test or production data.",
+    "CSV loading uses a sorted-file row cap; report coverage before interpreting results."
+  ]
+}
